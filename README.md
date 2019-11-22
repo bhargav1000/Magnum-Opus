@@ -36,4 +36,4 @@ A CNN based Image Classifier used to classify Aadhaar Card, PAN Card and any oth
 ## Getting started:
 - Download the model weights from [here](https://drive.google.com/file/d/1VyKBh7NMyPvEKgXSMGD3_mXOjKbJgisw/view).
 - Edit **line 6** in ```main.py``` and place your image path. 
-- Run main.py and check the classification.
+- Run ```main.py``` and check the classification.
