@@ -20,7 +20,7 @@ class Classifier:
         self.MODEL_LOADED=False
         self.FAULTY_IMAGE=True
         
-    def init_model(self,weights_file='/model/weights-best-improvement-09-0.94.hdf5'):
+    def init_model(self,weights_file='weights-best-improvement-09-0.94.hdf5'):
         """The Model file is loaded."""
         try:
             self.model = load_model(weights_file)
