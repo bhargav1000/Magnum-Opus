@@ -26,7 +26,8 @@ A CNN based Image Classifier used to classify Aadhaar Card, PAN Card and any oth
 - The operations team manually verified several images using the classifier to ensure that the right documents were classified.
 
 ## Getting started:
-- Download the model weights from [here](https://drive.google.com/file/d/1VyKBh7NMyPvEKgXSMGD3_mXOjKbJgisw/view).
+- Train the model. Please keep your dataset images in a directory called `train` with 2 sub-directories called `aadhar` and `pan` which will contain the respective images. Also create a directory called `validation` in a similar fashion. You can change the directory and their names, just edit **line37** and **line38** in [train2.py](https://github.com/bhargav1000/Magnum-Opus/blob/master/model/train2.py)
+- Add the resulting model file in the `init_model` function using the `model` argument.
 - Edit **line 6** in ```main.py``` and place your image path. 
 - Run ```main.py``` and check the classification.
 
